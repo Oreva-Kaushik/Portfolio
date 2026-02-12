@@ -1,119 +1,163 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
 	<head>
 		<title>Kaushik Chavda - Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-        
-        <!-- IMPORT GOOGLE MODEL VIEWER (Required for 3D) -->
-        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 
+		<!-- IMPORT GOOGLE MODEL VIEWER (Required for 3D) -->
+		<script
+			type="module"
+			src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"
+		></script>
 	</head>
 	<body class="is-preload">
-
 		<!-- Nav -->
-			<nav id="nav">
-                <a href="index.html" class="logo-link">
-                    <img src="images/K.png" alt="Logo"> <!-- Replace with your logo path -->
-                    <span>Kaushik</span>
-                </a>
-				<ul class="container">
+		<nav id="nav">
+			<a href="index.html" class="logo-link">
+				<img src="images/K.png" alt="Logo" />
+				<!-- Replace with your logo path -->
+				<span>Kaushik</span>
+			</a>
+			<div class="small-screen-nav">
+				<button class="burger" popovertarget="mobile-menu-popover">
+					<hr />
+					<hr />
+					<hr />
+				</button>
+				<ul popover="auto" id="mobile-menu-popover" class="container">
 					<li><a href="#top">Top</a></li>
 					<li><a href="#work">Work</a></li>
 					<li><a href="#portfolio">Projects</a></li>
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
-			</nav>
+			</div>
+			<ul class="container large-screen-nav">
+				<li><a href="#top">Top</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#portfolio">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 
 		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/Myimage.jpg" alt="" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Hi, I'm <strong>Kaushik Chavda</strong>.</h1>
-							</header>
-							<p>I'm a passionate 3rd-year B.Tech CSE student with a strong interest in Game development, Programming and 3d modeling.</p>
-							<span class="badge">Open to work ⦿</span>
-							<h2>
-								• Gameplay Programmer <br>
-								<br>
-								• Game Designer
-							</h2>
+		<article id="top" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<span class="image fit"><img src="images/Myimage.jpg" alt="" /></span>
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<header>
+							<h1>Hi, I'm <strong>Kaushik Chavda</strong>.</h1>
+						</header>
+						<p>
+							I'm a passionate 3rd-year B.Tech CSE student with a strong interest in
+							Game development, Programming and 3d modeling.
+						</p>
+						<span class="badge">Open to work ⦿</span>
+						<h2>
+							• Gameplay Programmer <br />
+							<br />
+							• Game Designer
+						</h2>
 
-                            <ul class="social">
-								<li><a href="https://www.linkedin.com/in/kaushik-chavda-14059b349/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.youtube.com/@3dmirageyoutube" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
-								<li><a href="https://github.com/Oreva-Kaushik" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							</ul>
-                            <br>
-							<a href="#portfolio" class="button large scrolly">Projects</a>
-						</div>
+						<ul class="social">
+							<li>
+								<a
+									href="https://www.linkedin.com/in/kaushik-chavda-14059b349/"
+									class="icon brands fa-linkedin-in"
+									><span class="label">LinkedIn</span></a
+								>
+							</li>
+							<li>
+								<a
+									href="https://www.youtube.com/@3dmirageyoutube"
+									class="icon brands fa-youtube"
+									><span class="label">Youtube</span></a
+								>
+							</li>
+							<li>
+								<a
+									href="https://github.com/Oreva-Kaushik"
+									class="icon brands fa-github"
+									><span class="label">Github</span></a
+								>
+							</li>
+						</ul>
+						<br />
+						<a href="#portfolio" class="button large scrolly">Projects</a>
 					</div>
 				</div>
-			</article>
+			</div>
+		</article>
 
-<!-- Work -->
-			<article id="work" class="wrapper style2" style="padding: 3em 0;">
-				    <div class="container">
-        <header>
-            <h2>My Work Experience</h2>
-            <p>Professional experience in the Game Industry.</p>
-        </header>
-        <div class="row aln-center">
-            <div class="col-6 col-12-medium">
-                <section class="box style1">
-                    <!-- Replace 'images/company_logo.png' with your actual logo file -->
-                    <!-- Added style to keep the logo neat -->
-                    <img src="images/Company_logo1.jpg" alt="Company Logo" style="width: 400px; height: auto; margin-bottom: 1.5em;">
-                    
-                    <h3>3D Artist & Level Designer (Intern)</h3>
-                    <p><strong>Karma Play</strong> <br> August 2025 - Present</p>
-                    <p>Currently working on creating high-quality 3D assets and designing immersive level environments for upcoming games.</p>
-                </section>
-            </div>
-        </div>
-        <footer>
-            <p>Gaining hands-on industry experience while finishing my degree.</p>
-        </footer>
-    </div>
-			</article>
+		<!-- Work -->
+		<article id="work" class="wrapper style2" style="padding: 3em 0">
+			<div class="container">
+				<header>
+					<h2>My Work Experience</h2>
+					<p>Professional experience in the Game Industry.</p>
+				</header>
+				<div class="row aln-center">
+					<div class="col-6 col-12-medium">
+						<section class="box style1">
+							<!-- Replace 'images/company_logo.png' with your actual logo file -->
+							<!-- Added style to keep the logo neat -->
+							<img
+								src="images/Company_logo1.jpg"
+								alt="Company Logo"
+								style="width: 400px; height: auto; margin-bottom: 1.5em"
+							/>
 
+							<h3>3D Artist & Level Designer (Intern)</h3>
+							<p>
+								<strong>Karma Play</strong> <br />
+								August 2025 - Present
+							</p>
+							<p>
+								Currently working on creating high-quality 3D assets and designing
+								immersive level environments for upcoming games.
+							</p>
+						</section>
+					</div>
+				</div>
+				<footer>
+					<p>Gaining hands-on industry experience while finishing my degree.</p>
+				</footer>
+			</div>
+		</article>
 
 		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
+		<article id="portfolio" class="wrapper style3">
 			<header>
-            <h2>My Game Projects and Other works</h2>
-            </header>
-<div class="container">
-    
-    <!-- New Wrapper to hold buttons in place -->
-    <div class="slider-wrapper">
+				<h2>My Game Projects and Other works</h2>
+			</header>
+			<div class="container">
+				<!-- New Wrapper to hold buttons in place -->
+				<div class="slider-wrapper">
+					<!-- Panel title bar -->
+					<div class="slider-tabs">
+						<button class="slider-tab active" data-index="0">Games</button>
+						<button class="slider-tab" data-index="1">Level Designs</button>
+						<button class="slider-tab" data-index="2">3D Models</button>
+						<button class="slider-tab" data-index="3">3D Animations</button>
+					</div>
 
-		<!-- Panel title bar -->
-		<div class="slider-tabs">
-			<button class="slider-tab active" data-index="0">Games</button>
-			<button class="slider-tab" data-index="1">Level Designs</button>
-			<button class="slider-tab" data-index="2">3D Models</button>
-			<button class="slider-tab" data-index="3">3D Animations</button>
-		</div>
-	
-		<section class="h-scroll" id="slider">
-			
-			<!-- PANEL 1: Games -->
-            <div class="panel">
-                <div class="project-grid">
-                    
-                    <!-- CARD 1 -->
-                    <a href="javascript:void(0)" class="project-card" 
-                       data-title="Unreal Engine Starter Pack for RPG Action Game"
-                       data-video="https://www.youtube.com/embed/neLyMY4Gmrw"
-                       data-desc=" I created this project to kick start any RPG action game. I mainly used C++ programming and blueprints where needed. By retargeting the blueprints we can easily use them on any other character.
+					<section class="h-scroll" id="slider">
+						<!-- PANEL 1: Games -->
+						<div class="panel">
+							<div class="project-grid">
+								<!-- CARD 1 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Unreal Engine Starter Pack for RPG Action Game"
+									data-video="https://www.youtube.com/embed/neLyMY4Gmrw"
+									data-desc=" I created this project to kick start any RPG action game. I mainly used C++ programming and blueprints where needed. By retargeting the blueprints we can easily use them on any other character.
                        
 Main Features :
 - 8 degree motion on [WASD] keys.
@@ -125,654 +169,749 @@ Extra features :
 - Niagara Components to Weapon.
 - Meta sounds for Footsteps, Attack and Equip-Drop Melee Weapon.
 - Different Walk-Run Animation based on Character state. 
-- Added Box trace Component.">
-                        <img src="images/Game1.png" alt="Unreal Engine Starter Pack">
-                        <div class="card-text">
-                            <h3>Unreal Engine Starter Pack</h3>
-                            <p>Click to view details</p>
-                        </div>
-                    </a>
+- Added Box trace Component."
+								>
+									<img src="images/Game1.png" alt="Unreal Engine Starter Pack" />
+									<div class="card-text">
+										<h3>Unreal Engine Starter Pack</h3>
+										<p>Click to view details</p>
+									</div>
+								</a>
 
-                    <!-- CARD 2 -->
-                    <a href="javascript:void(0)" class="project-card" 
-                       data-title="RPG Action Game using C++ in Unreal Engine 5.5!" 
-                       data-video="https://www.youtube.com/embed/oQLpDu2sG2c"
-                       data-desc="This project combines ancient and modern fantasy elements with real-time combat, dynamic enemy AI, and a main menu with smooth loading transitions. I worked on everything from scratch, including gameplay programming and UI design to level building and performance optimization.
-                       I mainly used C++ programming, and blueprints where it was required. It was an amazing learning and building process that improved my knowledge in Unreal Engine, game design, and C++ programming.">
-                        <img src="images/Game2.png" alt="Fantasy RPG">
-                        <div class="card-text">
-                            <h3>RPG Action Game</h3>
-                            <p>Click to view details</p>
-                        </div>
-                    </a>
+								<!-- CARD 2 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="RPG Action Game using C++ in Unreal Engine 5.5!"
+									data-video="https://www.youtube.com/embed/oQLpDu2sG2c"
+									data-desc="This project combines ancient and modern fantasy elements with real-time combat, dynamic enemy AI, and a main menu with smooth loading transitions. I worked on everything from scratch, including gameplay programming and UI design to level building and performance optimization.
+                       I mainly used C++ programming, and blueprints where it was required. It was an amazing learning and building process that improved my knowledge in Unreal Engine, game design, and C++ programming."
+								>
+									<img src="images/Game2.png" alt="Fantasy RPG" />
+									<div class="card-text">
+										<h3>RPG Action Game</h3>
+										<p>Click to view details</p>
+									</div>
+								</a>
 
-                    <!-- CARD 3 -->
-                    <a href="javascript:void(0)" class="project-card"
-                       data-title="Boss Fight system in RPG Action Game"
-                       data-video="https://www.youtube.com/embed/O1kU_qxIMOM"
-                       data-desc="This new implementation introduces a challenging boss enemy, a target lock-on system for easier combat, and quick attack-responsive enemy behavior that reacts quickly and smartly. I've also added new weapons, new character ability, and enhanced the overall combat experience, making it more responsive. It helped me to dive deeper into animation handling, combat logic, and Enemy behavior in both C++ and Blueprint.">
-                        <img src="images/Game3.png" alt="Fantasy RPG">
-                        <div class="card-text">
-                            <h3>Boss Fight - RPG Action Game</h3>
-                            <p>Click to view details</p>
-                        </div>
-                    </a>
+								<!-- CARD 3 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Boss Fight system in RPG Action Game"
+									data-video="https://www.youtube.com/embed/O1kU_qxIMOM"
+									data-desc="This new implementation introduces a challenging boss enemy, a target lock-on system for easier combat, and quick attack-responsive enemy behavior that reacts quickly and smartly. I've also added new weapons, new character ability, and enhanced the overall combat experience, making it more responsive. It helped me to dive deeper into animation handling, combat logic, and Enemy behavior in both C++ and Blueprint."
+								>
+									<img src="images/Game3.png" alt="Fantasy RPG" />
+									<div class="card-text">
+										<h3>Boss Fight - RPG Action Game</h3>
+										<p>Click to view details</p>
+									</div>
+								</a>
 
-                    <!-- CARD 4 -->
-                    <a href="javascript:void(0)" class="project-card"
-                       data-title="Third-person shooting game developed in C++ using Unreal Engine 5.5!"
-                       data-video="https://www.youtube.com/embed/BD6xNXC8KVY"
-                       data-desc=" I progressively developed several aspects of gameplay including weapon handling, shooting system, Inventory management, health, HUD, enemy AI behavior, character animations and the environment interaction. My focus was on implementing well-organized and modular C++ code rather than relying too heavily on blueprints.
+								<!-- CARD 4 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Third-person shooting game developed in C++ using Unreal Engine 5.5!"
+									data-video="https://www.youtube.com/embed/BD6xNXC8KVY"
+									data-desc=" I progressively developed several aspects of gameplay including weapon handling, shooting system, Inventory management, health, HUD, enemy AI behavior, character animations and the environment interaction. My focus was on implementing well-organized and modular C++ code rather than relying too heavily on blueprints.
 I also worked on adding UI elements like weapon slots, ammo counter, health indicators, and combat effects like hits and explosions. Besides the features, this project helped a lot in increasing my knowledge about the gameplay structure of Unreal Engine.
 
                        Besides the features, this project helped a lot in increasing my knowledge about the gameplay structure of Unreal Engine.
-                       ">
-                        <img src="images/Game4.png" alt="Shooter Game">
-                        <div class="card-text">
-                            <h3>Third-person shooting game</h3>
-                            <p>Click to view details</p>
-                        </div>
-                    </a>
+                       "
+								>
+									<img src="images/Game4.png" alt="Shooter Game" />
+									<div class="card-text">
+										<h3>Third-person shooting game</h3>
+										<p>Click to view details</p>
+									</div>
+								</a>
+							</div>
+						</div>
 
-                </div>
-            </div>
-	
-			<!-- PANEL 2: Level Designs -->
-<!-- PANEL 2: Level Designs -->
-<div class="panel">
-    <div class="project-grid">
-        
-        <!-- CARD 1 -->
-        <a href="javascript:void(0)" class="project-card"
-           data-title="Level Design 1"
-           data-desc=""
-           data-images="images/Level1_1.png,images/Level1_2.png,images/Level1_3.png,images/Level1_4.png,images/Level1_5.png">
-            
-            <img src="images/Game4.png" alt="Level Design">
-            <div class="card-text">
-                <h3>Level Design 1</h3>
-                <p>click here</p>
-            </div>
-        </a>
+						<!-- PANEL 2: Level Designs -->
+						<!-- PANEL 2: Level Designs -->
+						<div class="panel">
+							<div class="project-grid">
+								<!-- CARD 1 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Level Design 1"
+									data-desc=""
+									data-images="images/Level1_1.png,images/Level1_2.png,images/Level1_3.png,images/Level1_4.png,images/Level1_5.png"
+								>
+									<img src="images/Game4.png" alt="Level Design" />
+									<div class="card-text">
+										<h3>Level Design 1</h3>
+										<p>click here</p>
+									</div>
+								</a>
 
-        <!-- CARD 2 -->
-        <a href="javascript:void(0)" class="project-card"
-           data-title="Level Design 2"
-           data-desc=""
-           data-images="images/Level2_1.png,images/Level2_2.png,images/Level2_3.png,images/Level2_4.png,images/Level2_5.png">
-            <img src="images/Level2_4.png" alt="Dungeon">
-            <div class="card-text">
-                <h3>Level Design 2</h3>
-                <p>click here</p>
-            </div>
-        </a>
+								<!-- CARD 2 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Level Design 2"
+									data-desc=""
+									data-images="images/Level2_1.png,images/Level2_2.png,images/Level2_3.png,images/Level2_4.png,images/Level2_5.png"
+								>
+									<img src="images/Level2_4.png" alt="Dungeon" />
+									<div class="card-text">
+										<h3>Level Design 2</h3>
+										<p>click here</p>
+									</div>
+								</a>
 
-        <!-- CARD 3 -->
-        <a href="javascript:void(0)" class="project-card"
-           data-title="Level Design 3"
-           data-desc=""
-           data-images="images/Level3_1.png,images/Level3_2.png,images/Level3_3.png,images/Level3_4.png,images/Level3_5.png">
-            
-            <img src="images/Level3_5.png" alt="Open World">
-            <div class="card-text">
-                <h3>Level Design 3</h3>
-                <p>click here</p>
-            </div>
-        </a>
+								<!-- CARD 3 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Level Design 3"
+									data-desc=""
+									data-images="images/Level3_1.png,images/Level3_2.png,images/Level3_3.png,images/Level3_4.png,images/Level3_5.png"
+								>
+									<img src="images/Level3_5.png" alt="Open World" />
+									<div class="card-text">
+										<h3>Level Design 3</h3>
+										<p>click here</p>
+									</div>
+								</a>
 
-        <!-- CARD 4 -->
-        <a href="javascript:void(0)" class="project-card"
-           data-title="Level Design 4 - Coming Soon"
-           data-desc=""
-           data-images="images/pic04.jpg">
-            <img src="images/pic04.jpg" alt="Level 4">
-            <div class="card-text">
-                <h3>Level Design 4</h3>
-                <p>Coming Soon</p>
-            </div>
-        </a>
+								<!-- CARD 4 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Level Design 4 - Coming Soon"
+									data-desc=""
+									data-images="images/pic04.jpg"
+								>
+									<img src="images/pic04.jpg" alt="Level 4" />
+									<div class="card-text">
+										<h3>Level Design 4</h3>
+										<p>Coming Soon</p>
+									</div>
+								</a>
+							</div>
+						</div>
 
-    </div>
-</div>
-	
-			<!-- PANEL 3: 3D Models (6 Cards with 3D VIEW) -->
-			<div class="panel">
-				<div class="project-grid">
-					
-                    <!-- 3D MODEL CARD 1 -->
-					<a href="javascript:void(0)" class="project-card"
-                       data-title="Two stroke engine model"
-                       data-desc=""
-                       data-model="models/stroke_engine.glb"> 
-                        <img src="images/3dmodel1.png" alt="Character">
-                        <div class="card-text">
-						    <h3>Two stroke engine model</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
+						<!-- PANEL 3: 3D Models (6 Cards with 3D VIEW) -->
+						<div class="panel">
+							<div class="project-grid">
+								<!-- 3D MODEL CARD 1 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Two stroke engine model"
+									data-desc=""
+									data-model="models/stroke_engine.glb"
+								>
+									<img src="images/3dmodel1.png" alt="Character" />
+									<div class="card-text">
+										<h3>Two stroke engine model</h3>
+										<p>click here</p>
+									</div>
+								</a>
 
-                    <!-- 3D MODEL CARD 2 -->
-					<a href="javascript:void(0)" class="project-card"
-                       data-title="Building model"
-                       data-desc=""
-                       data-model="models/Building01.glb">
-                        <img src="images/3dmodel2.png" alt="Weapon">
-                        <div class="card-text">
-						    <h3>Building model</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
+								<!-- 3D MODEL CARD 2 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Building model"
+									data-desc=""
+									data-model="models/Building01.glb"
+								>
+									<img src="images/3dmodel2.png" alt="Weapon" />
+									<div class="card-text">
+										<h3>Building model</h3>
+										<p>click here</p>
+									</div>
+								</a>
 
-                    <!-- 3D MODEL CARD 3 -->
-					<a href="javascript:void(0)" class="project-card"
-                       data-title="Wooden Chair model"
-                       data-desc=""
-                       data-model="models/Chair.glb">
-                        <img src="images/3dmodel3.png" alt="Chair">
-                        <div class="card-text">
-						    <h3>Wooden Chair model</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
+								<!-- 3D MODEL CARD 3 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Wooden Chair model"
+									data-desc=""
+									data-model="models/Chair.glb"
+								>
+									<img src="images/3dmodel3.png" alt="Chair" />
+									<div class="card-text">
+										<h3>Wooden Chair model</h3>
+										<p>click here</p>
+									</div>
+								</a>
 
-                    <!-- 3D MODEL CARD 4 -->
-                    <a href="javascript:void(0)" class="project-card"
-                       data-title="Tonga(Horse Cart) model"
-                       data-desc=""
-                       data-model="models/Tonga1.glb">
-                        <img src="images/3dmodel4.png" alt="Prop">
-                        <div class="card-text">
-						    <h3>Tonga(Horse Cart) model</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
+								<!-- 3D MODEL CARD 4 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Tonga(Horse Cart) model"
+									data-desc=""
+									data-model="models/Tonga1.glb"
+								>
+									<img src="images/3dmodel4.png" alt="Prop" />
+									<div class="card-text">
+										<h3>Tonga(Horse Cart) model</h3>
+										<p>click here</p>
+									</div>
+								</a>
 
-                    <!-- 3D MODEL CARD 5 -->
-					<a href="javascript:void(0)" class="project-card"
-                       data-title="Donuts model"
-                       data-desc=""
-                       data-model="models/Donuts.glb">
-                        <img src="images/3dmodel5.png" alt="Creature">
-                        <div class="card-text">
-						    <h3>Donuts model</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
+								<!-- 3D MODEL CARD 5 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Donuts model"
+									data-desc=""
+									data-model="models/Donuts.glb"
+								>
+									<img src="images/3dmodel5.png" alt="Creature" />
+									<div class="card-text">
+										<h3>Donuts model</h3>
+										<p>click here</p>
+									</div>
+								</a>
 
-                    <!-- 3D MODEL CARD 6 -->
-					<a href="javascript:void(0)" class="project-card"
-                       data-title="Old Wooden booth"
-                       data-desc=""
-                       data-model="models/Ticket_Booth.glb">
-                        <img src="images/3dmodel6.png" alt="Architecture">
-                        <div class="card-text">
-						    <h3>Old Wooden booth</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
+								<!-- 3D MODEL CARD 6 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Old Wooden booth"
+									data-desc=""
+									data-model="models/Ticket_Booth.glb"
+								>
+									<img src="images/3dmodel6.png" alt="Architecture" />
+									<div class="card-text">
+										<h3>Old Wooden booth</h3>
+										<p>click here</p>
+									</div>
+								</a>
+							</div>
+						</div>
 
+						<!-- PANEL 4: 3D Animations (Now with VIDEO Logic) -->
+						<div class="panel">
+							<div class="project-grid">
+								<!-- ANIMATION CARD 1 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Car animation using Blender"
+									data-video="https://www.youtube.com/embed/RHFCp7gSc2U"
+									data-desc=""
+								>
+									<img src="images/3danimation1.png" alt="Walk Cycle" />
+									<div class="card-text">
+										<h3>Car Animation</h3>
+										<p>click here</p>
+									</div>
+								</a>
+
+								<!-- ANIMATION CARD 2 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Donut animation using Blender"
+									data-video="https://www.youtube.com/embed/vKH_6Q2CvUk"
+									data-desc=""
+								>
+									<img src="images/3danimation2.png" alt="Combat" />
+									<div class="card-text">
+										<h3>Donut Animation</h3>
+										<p>click here</p>
+									</div>
+								</a>
+
+								<!-- ANIMATION CARD 3 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Two Stroke Engine animation using Blender"
+									data-video="https://www.youtube.com/embed/RBh99oRqS94"
+									data-desc=""
+								>
+									<img src="images/3danimation6.png" alt="Idle" />
+									<div class="card-text">
+										<h3>Two Stroke Engine Animation</h3>
+										<p>click here</p>
+									</div>
+								</a>
+
+								<!-- ANIMATION CARD 4 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Clothe simulation with different faces in Blender"
+									data-video="https://www.youtube.com/embed/iSyPxfxtxhY"
+									data-desc=""
+								>
+									<img src="images/3danimation4.png" alt="Run Cycle" />
+									<div class="card-text">
+										<h3>Clothe Simulation Animation</h3>
+										<p>click here</p>
+									</div>
+								</a>
+
+								<!-- ANIMATION CARD 5 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Block Loop Animation"
+									data-video="https://www.youtube.com/embed/ouXoFgea9cM"
+									data-desc=""
+								>
+									<img src="images/3danimation5.png" alt="Jump" />
+									<div class="card-text">
+										<h3>Block Loop Animation</h3>
+										<p>click here</p>
+									</div>
+								</a>
+
+								<!-- ANIMATION CARD 6 -->
+								<a
+									href="javascript:void(0)"
+									class="project-card"
+									data-title="Starwars animation using Unreal Engine"
+									data-video="https://www.youtube.com/embed/OEyQwyIVg_0"
+									data-desc=""
+								>
+									<img src="images/3danimation3.png" alt="Combat" />
+									<div class="card-text">
+										<h3>Starwars Animation</h3>
+										<p>click here</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</section>
+
+					<!-- Buttons -->
+					<button class="nav-btn left" onclick="slideLeft()">&#60;</button>
+					<button class="nav-btn right" onclick="slideRight()">&#62;</button>
 				</div>
 			</div>
-	
-			<!-- PANEL 4: 3D Animations (Now with VIDEO Logic) -->
-			<div class="panel">
-				<div class="project-grid">
-					
-                    <!-- ANIMATION CARD 1 -->
-                    <a href="javascript:void(0)" class="project-card"
-                       data-title="Car animation using Blender"
-                       data-video="https://www.youtube.com/embed/RHFCp7gSc2U" 
-                       data-desc="">
-                        <img src="images/3danimation1.png" alt="Walk Cycle">
-                        <div class="card-text">
-						    <h3>Car Animation</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
-
-                    <!-- ANIMATION CARD 2 -->
-					<a href="javascript:void(0)" class="project-card"
-                       data-title="Donut animation using Blender"
-                       data-video="https://www.youtube.com/embed/vKH_6Q2CvUk"
-                       data-desc="">
-                        <img src="images/3danimation2.png" alt="Combat">
-                        <div class="card-text">
-						    <h3>Donut Animation</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
-
-                    <!-- ANIMATION CARD 3 -->
-					<a href="javascript:void(0)" class="project-card"
-                       data-title="Two Stroke Engine animation using Blender"
-                       data-video= "https://www.youtube.com/embed/RBh99oRqS94"
-                       data-desc="">
-                        <img src="images/3danimation6.png" alt="Idle">
-                        <div class="card-text">
-						    <h3>Two Stroke Engine Animation</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
-
-                    <!-- ANIMATION CARD 4 -->
-                    <a href="javascript:void(0)" class="project-card"
-                       data-title="Clothe simulation with different faces in Blender"
-                       data-video="https://www.youtube.com/embed/iSyPxfxtxhY"
-                       data-desc="">
-                        <img src="images/3danimation4.png" alt="Run Cycle">
-                        <div class="card-text">
-						    <h3>Clothe Simulation Animation</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
-
-                    <!-- ANIMATION CARD 5 -->
-					<a href="javascript:void(0)" class="project-card"
-                       data-title="Block Loop Animation"
-                       data-video="https://www.youtube.com/embed/ouXoFgea9cM"
-                       data-desc="">
-                        <img src="images/3danimation5.png" alt="Jump">
-                        <div class="card-text">
-						    <h3>Block Loop Animation</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
-
-                    <!-- ANIMATION CARD 6 -->
-                    <a href="javascript:void(0)" class="project-card"
-                       data-title="Starwars animation using Unreal Engine"
-                       data-video="https://www.youtube.com/embed/OEyQwyIVg_0"
-                       data-desc="">
-                        <img src="images/3danimation3.png" alt="Combat">
-                        <div class="card-text">
-						    <h3>Starwars Animation</h3>
-						    <p>click here</p>
-                        </div>
-					</a>
-
-				</div>
-			</div>
-	
-		</section>
-	
-		<!-- Buttons -->
-		<button class="nav-btn left" onclick="slideLeft()">&#60;</button>
-		<button class="nav-btn right" onclick="slideRight()">&#62;</button>
-	</div>
-</div>
-			</article>
+		</article>
 
 		<!-- Skills -->
-			<article id="skills" class="wrapper style2" style="padding: 3em 0;">
-<div class="container">
-        <header>
-            <h2>My Skills</h2>
-            <p>Technical proficiency in Game Development & Programming.</p>
-        </header>
-        
-        <div class="row">
-            <!-- LEFT COLUMN: PROGRAMMING -->
-            <!-- Added style="padding: 0 2em;" for side padding -->
-            <div class="col-6 col-12-medium" style="padding: 0 2em;">
-                <h3>Programming & Engines</h3>
-                
-                <!-- Skill 1 -->
-                <div class="skill-item">
-                    <div class="skill-label"><span>C++</span> <span>75%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-high" style="width: 75%;"></div>
-                    </div>
-                </div>
+		<article id="skills" class="wrapper style2" style="padding: 3em 0">
+			<div class="container">
+				<header>
+					<h2>My Skills</h2>
+					<p>Technical proficiency in Game Development & Programming.</p>
+				</header>
 
-                <!-- Skill 2 -->
-                <div class="skill-item">
-                    <div class="skill-label"><span>Unreal Engine 5</span> <span>70%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-high" style="width: 70%;"></div>
-                    </div>
-                </div>
+				<div class="row">
+					<!-- LEFT COLUMN: PROGRAMMING -->
+					<!-- Added style="padding: 0 2em;" for side padding -->
+					<div class="col-6 col-12-medium" style="padding: 0 2em">
+						<h3>Programming & Engines</h3>
 
-                <!-- Skill 3 -->
-                <div class="skill-item">
-                    <div class="skill-label"><span>Blueprints</span> <span>75%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-high" style="width: 75%;"></div>
-                    </div>
-                </div>
+						<!-- Skill 1 -->
+						<div class="skill-item">
+							<div class="skill-label"><span>C++</span> <span>75%</span></div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-high" style="width: 75%"></div>
+							</div>
+						</div>
 
-                <!-- Skill 4 -->
-                <div class="skill-item">
-                    <div class="skill-label"><span>Python</span> <span>50%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-med" style="width: 50%;"></div>
-                    </div>
-                </div>
+						<!-- Skill 2 -->
+						<div class="skill-item">
+							<div class="skill-label">
+								<span>Unreal Engine 5</span> <span>70%</span>
+							</div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-high" style="width: 70%"></div>
+							</div>
+						</div>
 
-                <div class="skill-item">
-                    <div class="skill-label"><span>Gameplay Programming Logic</span> <span>70%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-high" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
+						<!-- Skill 3 -->
+						<div class="skill-item">
+							<div class="skill-label"><span>Blueprints</span> <span>75%</span></div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-high" style="width: 75%"></div>
+							</div>
+						</div>
 
-            <!-- RIGHT COLUMN: DESIGN & TOOLS -->
-            <!-- Added style="padding: 0 2em;" for side padding -->
-            <div class="col-6 col-12-medium" style="padding: 0 2em;">
-                <h3>Design & Tools</h3>
+						<!-- Skill 4 -->
+						<div class="skill-item">
+							<div class="skill-label"><span>Python</span> <span>50%</span></div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-med" style="width: 50%"></div>
+							</div>
+						</div>
 
-                <!-- Skill 5 -->
-                <div class="skill-item">
-                    <div class="skill-label"><span>3D Modeling (Blender)</span> <span>75%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-high" style="width: 75%;"></div>
-                    </div>
-                </div>
+						<div class="skill-item">
+							<div class="skill-label">
+								<span>Gameplay Programming Logic</span> <span>70%</span>
+							</div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-high" style="width: 70%"></div>
+							</div>
+						</div>
+					</div>
 
-                <!-- Skill 6 -->
-                <div class="skill-item">
-                    <div class="skill-label"><span>AI Behavior Trees</span> <span>75%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-high" style="width: 75%;"></div>
-                    </div>
-                </div>
+					<!-- RIGHT COLUMN: DESIGN & TOOLS -->
+					<!-- Added style="padding: 0 2em;" for side padding -->
+					<div class="col-6 col-12-medium" style="padding: 0 2em">
+						<h3>Design & Tools</h3>
 
-                <!-- Skill 7 -->
-                <div class="skill-item">
-                    <div class="skill-label"><span>Animation Logic</span> <span>70%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-high" style="width: 70%;"></div>
-                    </div>
-                </div>
+						<!-- Skill 5 -->
+						<div class="skill-item">
+							<div class="skill-label">
+								<span>3D Modeling (Blender)</span> <span>75%</span>
+							</div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-high" style="width: 75%"></div>
+							</div>
+						</div>
 
-                <!-- Skill 8 -->
-                <div class="skill-item">
-                    <div class="skill-label"><span>UI Implementation in Unreal Engine</span> <span>80%</span></div>
-                    <div class="skill-bar-container">
-                        <div class="skill-bar sb-high" style="width: 80%;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+						<!-- Skill 6 -->
+						<div class="skill-item">
+							<div class="skill-label">
+								<span>AI Behavior Trees</span> <span>75%</span>
+							</div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-high" style="width: 75%"></div>
+							</div>
+						</div>
 
-        <footer>
-            <p>Always learning and improving my craft.</p>
-        </footer>
-    </div>
-			</article>
+						<!-- Skill 7 -->
+						<div class="skill-item">
+							<div class="skill-label">
+								<span>Animation Logic</span> <span>70%</span>
+							</div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-high" style="width: 70%"></div>
+							</div>
+						</div>
+
+						<!-- Skill 8 -->
+						<div class="skill-item">
+							<div class="skill-label">
+								<span>UI Implementation in Unreal Engine</span> <span>80%</span>
+							</div>
+							<div class="skill-bar-container">
+								<div class="skill-bar sb-high" style="width: 80%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<footer>
+					<p>Always learning and improving my craft.</p>
+				</footer>
+			</div>
+		</article>
 
 		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p></p>
-					</header>
-					<div class="row">
-						<div class="col-12">
-                             <form action="https://formspree.io/f/xkovnyeq" method="POST">
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-
-                                    <input type="text" name="_gotcha" style="display:none" />
-
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-											<li><input type="reset" value="Clear Form" class="alt" /></li>
-										</ul>
-									</div>
+		<article id="contact" class="wrapper style4">
+			<div class="container medium">
+				<header>
+					<h2>Have me make stuff for you.</h2>
+					<p></p>
+				</header>
+				<div class="row">
+					<div class="col-12">
+						<form action="https://formspree.io/f/xkovnyeq" method="POST">
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<input type="text" name="name" id="name" placeholder="Name" />
 								</div>
-							</form>
-						</div>
-						<div class="col-12">
-							<hr />
-							<h3>Find me on ...</h3>
-							<ul class="social">
-								<li><a href="https://www.linkedin.com/in/kaushik-chavda-14059b349/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.youtube.com/@3dmirageyoutube" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
-								<li><a href="https://github.com/Oreva-Kaushik" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							</ul>
-							<hr />
-						</div>
+								<div class="col-6 col-12-small">
+									<input
+										type="email"
+										name="email"
+										id="email"
+										placeholder="Email"
+									/>
+								</div>
+
+								<input type="text" name="_gotcha" style="display: none" />
+
+								<div class="col-12">
+									<input
+										type="text"
+										name="subject"
+										id="subject"
+										placeholder="Subject"
+									/>
+								</div>
+								<div class="col-12">
+									<textarea
+										name="message"
+										id="message"
+										placeholder="Message"
+									></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+										<li>
+											<input type="reset" value="Clear Form" class="alt" />
+										</li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-12">
+						<hr />
+						<h3>Find me on ...</h3>
+						<ul class="social">
+							<li>
+								<a
+									href="https://www.linkedin.com/in/kaushik-chavda-14059b349/"
+									class="icon brands fa-linkedin-in"
+									><span class="label">LinkedIn</span></a
+								>
+							</li>
+							<li>
+								<a
+									href="https://www.youtube.com/@3dmirageyoutube"
+									class="icon brands fa-youtube"
+									><span class="label">Youtube</span></a
+								>
+							</li>
+							<li>
+								<a
+									href="https://github.com/Oreva-Kaushik"
+									class="icon brands fa-github"
+									><span class="label">Github</span></a
+								>
+							</li>
+						</ul>
+						<hr />
 					</div>
 				</div>
-			</article>
+			</div>
+		</article>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			
-            <!-- Modal Structure -->
-			<dialog id="project-modal">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h3 id="modal-title">Project Title</h3>
-						<button class="close-btn" onclick="closeModal()">&times;</button>
-					</div>
-					
-                    <!-- The content of this div will be swapped by JS (Video OR 3D Model) -->
-					<div class="modal-video-wrapper">
-                        <!-- Placeholder for Youtube API -->
-						<div id="player"></div> 
-					</div>
-			
-					<div class="modal-body">
-						<p id="modal-desc">Description goes here...</p>
-					</div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<!-- Modal Structure -->
+		<dialog id="project-modal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 id="modal-title">Project Title</h3>
+					<button class="close-btn" onclick="closeModal()">&times;</button>
 				</div>
-			</dialog>
 
-	<script>
-    // --- SLIDER LOGIC ---
-    function slideLeft() {
-        var slider = document.getElementById('slider');
-        slider.scrollLeft = slider.scrollLeft - slider.offsetWidth;
-    }
+				<!-- The content of this div will be swapped by JS (Video OR 3D Model) -->
+				<div class="modal-video-wrapper">
+					<!-- Placeholder for Youtube API -->
+					<div id="player"></div>
+				</div>
 
-    function slideRight() {
-        var slider = document.getElementById('slider');
-        slider.scrollLeft = slider.scrollLeft + slider.offsetWidth;
-    }
+				<div class="modal-body">
+					<p id="modal-desc">Description goes here...</p>
+				</div>
+			</div>
+		</dialog>
 
-    document.addEventListener("DOMContentLoaded", function() {
-        var slider = document.getElementById('slider');
-        var leftBtn = document.querySelector('.nav-btn.left');
-        var rightBtn = document.querySelector('.nav-btn.right');
-        var tabs = document.querySelectorAll('.slider-tab');
+		<script>
+			// --- SLIDER LOGIC ---
+			function slideLeft() {
+				var slider = document.getElementById("slider");
+				slider.scrollLeft = slider.scrollLeft - slider.offsetWidth;
+			}
 
-        var isClicking = false;
-        var timeoutId;
+			function slideRight() {
+				var slider = document.getElementById("slider");
+				slider.scrollLeft = slider.scrollLeft + slider.offsetWidth;
+			}
 
-        function setActiveTab(index) {
-			tabs.forEach(function(tab, i) {
-                if (i === index) {
-                    tab.classList.add('active');
-                } else {
-                    tab.classList.remove('active');
-                }
-            });
-        }
+			document.addEventListener("DOMContentLoaded", function () {
+				var slider = document.getElementById("slider");
+				var leftBtn = document.querySelector(".nav-btn.left");
+				var rightBtn = document.querySelector(".nav-btn.right");
+				var tabs = document.querySelectorAll(".slider-tab");
 
-        function updateButtonsAndTabs() {
-            var scrollLeft = slider.scrollLeft;
-    var maxScrollLeft = slider.scrollWidth - slider.clientWidth;
-    var panelWidth = slider.clientWidth || 1;
+				var isClicking = false;
+				var timeoutId;
 
-    // Hide Left Button on the first panel
-    if (scrollLeft < 10) {
-        leftBtn.style.setProperty('display', 'none', 'important');
-    } else {
-        leftBtn.style.setProperty('display', 'flex', 'important');
-    }
+				function setActiveTab(index) {
+					tabs.forEach(function (tab, i) {
+						if (i === index) {
+							tab.classList.add("active");
+						} else {
+							tab.classList.remove("active");
+						}
+					});
+				}
 
-    // Hide Right Button on the last panel
-    if (scrollLeft >= maxScrollLeft - 10) {
-        rightBtn.style.setProperty('display', 'none', 'important');
-    } else {
-        rightBtn.style.setProperty('display', 'flex', 'important');
-    }
+				function updateButtonsAndTabs() {
+					var scrollLeft = slider.scrollLeft;
+					var maxScrollLeft = slider.scrollWidth - slider.clientWidth;
+					var panelWidth = slider.clientWidth || 1;
 
-    if (!isClicking) {
-        var index = Math.round(scrollLeft / panelWidth);
-        setActiveTab(index);
-    }
-        }
+					// Hide Left Button on the first panel
+					if (scrollLeft < 10) {
+						leftBtn.style.setProperty("display", "none", "important");
+					} else {
+						leftBtn.style.setProperty("display", "flex", "important");
+					}
 
-        window.slideLeft = function() {
-            slider.scrollBy({ left: -slider.clientWidth, behavior: 'smooth' });
-        };
+					// Hide Right Button on the last panel
+					if (scrollLeft >= maxScrollLeft - 10) {
+						rightBtn.style.setProperty("display", "none", "important");
+					} else {
+						rightBtn.style.setProperty("display", "flex", "important");
+					}
 
-        window.slideRight = function() {
-            slider.scrollBy({ left: slider.clientWidth, behavior: 'smooth' });
-        };
+					if (!isClicking) {
+						var index = Math.round(scrollLeft / panelWidth);
+						setActiveTab(index);
+					}
+				}
 
-        tabs.forEach(function(tab) {
-            tab.addEventListener('click', function() {
-                var index = parseInt(tab.getAttribute('data-index'), 10) || 0;
-                var panelWidth = slider.clientWidth || 1;
-                
-				isClicking = true;
-                clearTimeout(timeoutId);
-                setActiveTab(index); 
+				window.slideLeft = function () {
+					slider.scrollBy({ left: -slider.clientWidth, behavior: "smooth" });
+				};
 
-				slider.scrollTo({ left: index * panelWidth, behavior: 'smooth' });
-                timeoutId = setTimeout(function() { isClicking = false; }, 800);
-            });
-        });
+				window.slideRight = function () {
+					slider.scrollBy({ left: slider.clientWidth, behavior: "smooth" });
+				};
 
-        slider.addEventListener('scroll', updateButtonsAndTabs);
-        window.addEventListener('resize', updateButtonsAndTabs);
-        updateButtonsAndTabs();
-    });
+				tabs.forEach(function (tab) {
+					tab.addEventListener("click", function () {
+						var index = parseInt(tab.getAttribute("data-index"), 10) || 0;
+						var panelWidth = slider.clientWidth || 1;
 
+						isClicking = true;
+						clearTimeout(timeoutId);
+						setActiveTab(index);
 
-    // --- YOUTUBE API + 3D MODEL LOGIC ---
+						slider.scrollTo({ left: index * panelWidth, behavior: "smooth" });
+						timeoutId = setTimeout(function () {
+							isClicking = false;
+						}, 800);
+					});
+				});
 
-    var tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+				slider.addEventListener("scroll", updateButtonsAndTabs);
+				window.addEventListener("resize", updateButtonsAndTabs);
+				updateButtonsAndTabs();
+			});
 
-    var player; 
-    var youtubeApiReady = false;
+			// --- YOUTUBE API + 3D MODEL LOGIC ---
 
-    function onYouTubeIframeAPIReady() {
-        youtubeApiReady = true;
-    }
+			var tag = document.createElement("script");
+			tag.src = "https://www.youtube.com/iframe_api";
+			var firstScriptTag = document.getElementsByTagName("script")[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-    const modal = document.getElementById('project-modal');
-    const modalTitle = document.getElementById('modal-title');
-    const modalDesc = document.getElementById('modal-desc');
-    const projectCards = document.querySelectorAll('.project-card');
-    const videoWrapper = document.querySelector('.modal-video-wrapper');
+			var player;
+			var youtubeApiReady = false;
 
-    function getYouTubeId(url) {
-        if (!url) return null;
-        const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
-        const match = url.match(regExp);
-        return (match && match[2].length === 11) ? match[2] : null;
-    }
+			function onYouTubeIframeAPIReady() {
+				youtubeApiReady = true;
+			}
 
-    projectCards.forEach(card => {
-        card.addEventListener('click', function(e) {
-            e.preventDefault();
+			const modal = document.getElementById("project-modal");
+			const modalTitle = document.getElementById("modal-title");
+			const modalDesc = document.getElementById("modal-desc");
+			const projectCards = document.querySelectorAll(".project-card");
+			const videoWrapper = document.querySelector(".modal-video-wrapper");
 
-            const title = this.getAttribute('data-title');
-            const rawVideoUrl = this.getAttribute('data-video');
-            const modelSrc = this.getAttribute('data-model'); // Check for 3D model
-            const description = this.getAttribute('data-desc');
-            const videoId = getYouTubeId(rawVideoUrl);
+			function getYouTubeId(url) {
+				if (!url) return null;
+				const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+				const match = url.match(regExp);
+				return match && match[2].length === 11 ? match[2] : null;
+			}
 
-            const imageString = this.getAttribute('data-images'); 
-            
-            modalTitle.innerText = title;
-            modalDesc.innerText = description;
-            
-            modal.showModal();
-            document.body.style.overflow = 'hidden';
+			projectCards.forEach((card) => {
+				card.addEventListener("click", function (e) {
+					e.preventDefault();
 
-            // --- 1. IMAGE GALLERY LOGIC (With Arrows) ---
-            if (imageString) {
-    const images = imageString.split(',');
-    
-    let imgHtml = `
+					const title = this.getAttribute("data-title");
+					const rawVideoUrl = this.getAttribute("data-video");
+					const modelSrc = this.getAttribute("data-model"); // Check for 3D model
+					const description = this.getAttribute("data-desc");
+					const videoId = getYouTubeId(rawVideoUrl);
+
+					const imageString = this.getAttribute("data-images");
+
+					modalTitle.innerText = title;
+					modalDesc.innerText = description;
+
+					modal.showModal();
+					document.body.style.overflow = "hidden";
+
+					// --- 1. IMAGE GALLERY LOGIC (With Arrows) ---
+					if (imageString) {
+						const images = imageString.split(",");
+
+						let imgHtml = `
         <button class="gallery-nav-btn prev" id="modal-prev">&#10094;</button>
         <div class="modal-image-scroller" id="modal-scroller">
     `;
-    images.forEach(img => {
-        imgHtml += `<img src="${img.trim()}" alt="Level View">`;
-    });
-    imgHtml += `
+						images.forEach((img) => {
+							imgHtml += `<img src="${img.trim()}" alt="Level View">`;
+						});
+						imgHtml += `
         </div>
         <button class="gallery-nav-btn next" id="modal-next">&#10095;</button>
     `;
-    
-    videoWrapper.innerHTML = imgHtml;
 
-    const scroller = document.getElementById('modal-scroller');
-    const btnPrev = document.getElementById('modal-prev');
-    const btnNext = document.getElementById('modal-next');
+						videoWrapper.innerHTML = imgHtml;
 
-    // Function to show/hide buttons (Matches your main slider logic)
-    function updateModalButtons() {
-        const scrollLeft = scroller.scrollLeft;
-        const maxScroll = scroller.scrollWidth - scroller.clientWidth;
+						const scroller = document.getElementById("modal-scroller");
+						const btnPrev = document.getElementById("modal-prev");
+						const btnNext = document.getElementById("modal-next");
 
-        // Hide left arrow if at the very start
-        if (scrollLeft <= 5) {
-            btnPrev.style.setProperty('display', 'none', 'important');
-        } else {
-            btnPrev.style.setProperty('display', 'flex', 'important');
-        }
+						// Function to show/hide buttons (Matches your main slider logic)
+						function updateModalButtons() {
+							const scrollLeft = scroller.scrollLeft;
+							const maxScroll = scroller.scrollWidth - scroller.clientWidth;
 
-        // Hide right arrow if at the very end
-        if (scrollLeft >= maxScroll - 5) {
-            btnNext.style.setProperty('display', 'none', 'important');
-        } else {
-            btnNext.style.setProperty('display', 'flex', 'important');
-        }
-    }
+							// Hide left arrow if at the very start
+							if (scrollLeft <= 5) {
+								btnPrev.style.setProperty("display", "none", "important");
+							} else {
+								btnPrev.style.setProperty("display", "flex", "important");
+							}
 
-    btnPrev.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        scroller.scrollLeft -= scroller.clientWidth;
-    });
+							// Hide right arrow if at the very end
+							if (scrollLeft >= maxScroll - 5) {
+								btnNext.style.setProperty("display", "none", "important");
+							} else {
+								btnNext.style.setProperty("display", "flex", "important");
+							}
+						}
 
-    btnNext.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        scroller.scrollLeft += scroller.clientWidth;
-    });
+						btnPrev.addEventListener("click", (e) => {
+							e.preventDefault();
+							e.stopPropagation();
+							scroller.scrollLeft -= scroller.clientWidth;
+						});
 
-    // Listen for scroll to toggle buttons
-    scroller.addEventListener('scroll', updateModalButtons);
-    
-    // Check once immediately after content is added
-    // Small delay ensures the browser has calculated widths correctly
-    setTimeout(updateModalButtons, 100);
-}
+						btnNext.addEventListener("click", (e) => {
+							e.preventDefault();
+							e.stopPropagation();
+							scroller.scrollLeft += scroller.clientWidth;
+						});
 
-            // --- 3D MODEL LOGIC ---
-            else if (modelSrc) {
-                // If it's a model, replace innerHTML with the <model-viewer>
-                videoWrapper.innerHTML = `
+						// Listen for scroll to toggle buttons
+						scroller.addEventListener("scroll", updateModalButtons);
+
+						// Check once immediately after content is added
+						// Small delay ensures the browser has calculated widths correctly
+						setTimeout(updateModalButtons, 100);
+					}
+
+					// --- 3D MODEL LOGIC ---
+					else if (modelSrc) {
+						// If it's a model, replace innerHTML with the <model-viewer>
+						videoWrapper.innerHTML = `
                     <model-viewer 
                         src="${modelSrc}" 
                         alt="3D Model" 
@@ -782,46 +921,48 @@ I also worked on adding UI elements like weapon slots, ammo counter, health indi
                         shadow-intensity="1">
                     </model-viewer>
                 `;
-            } 
-            // --- VIDEO LOGIC ---
-            else {
-                // Reset wrapper to hold the player div for YouTube
-                videoWrapper.innerHTML = '<div id="player"></div>';
+					}
+					// --- VIDEO LOGIC ---
+					else {
+						// Reset wrapper to hold the player div for YouTube
+						videoWrapper.innerHTML = '<div id="player"></div>';
 
-                if (youtubeApiReady && videoId) {
-                    // Create a new player instance every time to avoid conflicts with deleted DOM elements
-                    player = new YT.Player('player', {
-                        height: '100%',
-                        width: '100%',
-                        videoId: videoId,
-                        playerVars: {
-                            'playsinline': 1,
-                            'autoplay': 1
-                        }
-                    });
-                }
-            }
-        });
-    });
+						if (youtubeApiReady && videoId) {
+							// Create a new player instance every time to avoid conflicts with deleted DOM elements
+							player = new YT.Player("player", {
+								height: "100%",
+								width: "100%",
+								videoId: videoId,
+								playerVars: {
+									playsinline: 1,
+									autoplay: 1,
+								},
+							});
+						}
+					}
+				});
+			});
 
-    window.closeModal = function() {
-        modal.close();
-        document.body.style.overflow = '';
-        
-        // Clear content to stop video and remove heavy 3D models from memory
-        videoWrapper.innerHTML = '<div id="player"></div>';
-    }
+			window.closeModal = function () {
+				modal.close();
+				document.body.style.overflow = "";
 
-    modal.addEventListener('click', function(event) {
-        const rect = modal.getBoundingClientRect();
-        const isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
-          rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
-        
-        if (!isInDialog) {
-            closeModal();
-        }
-    });
+				// Clear content to stop video and remove heavy 3D models from memory
+				videoWrapper.innerHTML = '<div id="player"></div>';
+			};
 
-    </script>
+			modal.addEventListener("click", function (event) {
+				const rect = modal.getBoundingClientRect();
+				const isInDialog =
+					rect.top <= event.clientY &&
+					event.clientY <= rect.top + rect.height &&
+					rect.left <= event.clientX &&
+					event.clientX <= rect.left + rect.width;
+
+				if (!isInDialog) {
+					closeModal();
+				}
+			});
+		</script>
 	</body>
 </html>
